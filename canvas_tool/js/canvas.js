@@ -45,19 +45,19 @@ if (canvas.getContext) {
 
     // 线条点击事件
     thinLine.onclick = function () {
-        context.lineWidth = 1
+        lineWidth = 5;
         thinLine.classList.add("active")
         middleLine.classList.remove("active")
         thickLine.classList.remove("active")
     }
     middleLine.onclick = function () {
-        context.lineWidth = 3
+        lineWidth = 8
         thinLine.classList.remove("active")
         middleLine.classList.add("active")
         thickLine.classList.remove("active")
     }
     thickLine.onclick = function () {
-        context.lineWidth = 4
+        lineWidth = 10;
         thinLine.classList.remove("active")
         middleLine.classList.remove("active")
         thickLine.classList.add("active")
