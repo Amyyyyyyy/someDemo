@@ -1,4 +1,7 @@
 
+document.body.ontouchStart = function(e){
+    e.preventDefault();
+}
 var canvas = document.getElementById('canvas');
 if (canvas.getContext) {
     // 画笔
