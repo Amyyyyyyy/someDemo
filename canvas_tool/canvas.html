@@ -2,51 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- 让页面不要缩小 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>canvas-tool</title>
-    <link rel="stylesheet" href="./css/canvas.css">
-    <script src="//at.alicdn.com/t/font_614041_g604go1aw1c92j4i.js"></script>
+        <meta charset="UTF-8">
+        <!-- 让页面不要缩小 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>canvas-tool</title>
+        <link rel="stylesheet" href="./css/canvas.css">
+        <script src="//at.alicdn.com/t/font_614041_g604go1aw1c92j4i.js"></script>
 </head>
 
 <body>
-    <canvas class="canvas" width="300" height="300" id="canvas">
-    </canvas>
-    <div class="actions" id="actions">
-        <svg class="icon active" id="brush">
-                <use xlink:href="#icon-pencil"></use>
-        </svg>
-        <svg class="icon" id="eraser">
-                <use xlink:href="#icon-eraser"></use>
-        </svg>
-        <svg class="icon" id="clear">
-                <use xlink:href="#icon-custom-clear"></use>
-        </svg>
-        <svg class="icon" id="download">
-                <use xlink:href="#icon-xiazai"></use>
-        </svg>
-        <svg class="icon thin-line" id="thinLine">
-                <use xlink:href="#icon-line"></use>
-        </svg>
-        <svg class="icon middle-line" id="middleLine">
-                <use xlink:href="#icon-line"></use>
-        </svg>
-        <svg class="icon thick-line" id="thickLine">
-                <use xlink:href="#icon-line"></use>
-        </svg>
+        <canvas class="canvas" width="300" height="300" id="canvas">
+        </canvas>
+        <div class="actions" id="actions">
+                <svg class="icon active" id="brush">
+                        <use xlink:href="#icon-pencil"></use>
+                </svg>
+                <svg class="icon" id="eraser">
+                        <use xlink:href="#icon-eraser"></use>
+                </svg>
+                <svg class="icon" id="clear">
+                        <use xlink:href="#icon-custom-clear"></use>
+                </svg>
+                <svg class="icon" id="download">
+                        <use xlink:href="#icon-xiazai"></use>
+                </svg>
+                <svg class="icon thin-line" id="thinLine">
+                        <use xlink:href="#icon-line"></use>
+                </svg>
+                <svg class="icon middle-line" id="middleLine">
+                        <use xlink:href="#icon-line"></use>
+                </svg>
+                <svg class="icon thick-line" id="thickLine">
+                        <use xlink:href="#icon-line"></use>
+                </svg>
 
 
-    </div>
-    <ol class="colors">
-        <li class="black active" id="black" style="background: black;"></li>
-        <li class="red" id='red' style="background: red;"></li>
-        <li class="green" id="green" style="background: green;"></li>
-        <li class="blue" id="blue" style="background: blue;"></li>
-    </ol>
-    
+        </div>
+        <ol class="colors">
+                <li class="black active" id="black" style="background: black;"></li>
+                <li class="red" id='red' style="background: red;"></li>
+                <li class="green" id="green" style="background: green;"></li>
+                <li class="blue" id="blue" style="background: blue;"></li>
+        </ol>
 
-    <script src="./js/canvas.js"></script>
+
+        <script src="./js/canvas.js"></script>
 </body>
+
 </html>
