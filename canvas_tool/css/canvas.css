@@ -1,7 +1,7 @@
 .icon { width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden; }
 body{ margin: 0px;position: relative; overflow: hidden; }
 ul,ol{ list-style: none; }
-#canvas{ background: whitesmoke; display: block;}
+#canvas{ background: whitesmoke; display: block; position: fixed; top:0;left: 0;}
 .actions{ position: fixed; left: 0; top: 0; width: 100%; background: rgba(223, 194, 224, 0.2); padding: 10px 5px; text-align: center; transition: all 0.3s; }
 .actions > svg{ margin-left: 10px; transition: all 0.3s; width: 1.5em; height: 1.5em; }
 .actions svg.active{ fill:red; transform: scale(1.3); }
